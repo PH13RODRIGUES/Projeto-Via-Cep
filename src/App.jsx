@@ -44,7 +44,7 @@ function App() {
                     type="text"
                     className="form-control"
                     id="CEP"
-                    placeholder="EX: 12345678"
+                    placeholder="EX: 123456789"
                     onBlur={buscarCep}
 
 
