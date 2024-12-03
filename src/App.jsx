@@ -119,9 +119,11 @@ function App() {
                     onChange={(element) => setUf(element.target.value)}
                   />
                 </div>
+                <div className="row mb-3">
                 <button type="submit" className="btn btn-primary">
                   Enviar
                 </button>
+                </div>
               </form>
             </div>
           </div>
