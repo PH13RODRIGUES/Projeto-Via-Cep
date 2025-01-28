@@ -36,6 +36,19 @@ function App() {
           <div className="card">
             <div className="card-body">
               <form>
+
+              <div className="mb-3">
+                  <label htmlFor="nome" className="form-label">
+                    NOME
+                  </label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="nome"
+                    placeholder="EX: Joao Carlos"
+                  />
+                </div>
+
                 <div className="mb-3">
                   <label htmlFor="CEP" className="form-label">
                     CEP
